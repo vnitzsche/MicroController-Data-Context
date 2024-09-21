@@ -51,16 +51,30 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Form1.cs">
+    <Compile Include="Hauptbild.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form1.Designer.cs">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <Compile Include="Hauptbild.Designer.cs">
+      <DependentUpon>Hauptbild.cs</DependentUpon>
     </Compile>
+    <Compile Include="IO_Control.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="IO_Control.Designer.cs">
+      <DependentUpon>IO_Control.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Microcontroller\AI.cs" />
+    <Compile Include="Microcontroller\AO.cs" />
+    <Compile Include="Microcontroller\DI.cs" />
+    <Compile Include="Microcontroller\DO.cs" />
+    <Compile Include="Microcontroller\Microcontroller.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="Form1.resx">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <EmbeddedResource Include="Hauptbild.resx">
+      <DependentUpon>Hauptbild.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="IO_Control.resx">
+      <DependentUpon>IO_Control.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
