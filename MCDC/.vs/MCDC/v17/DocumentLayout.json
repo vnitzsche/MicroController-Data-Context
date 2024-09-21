@@ -7,48 +7,58 @@
       "RelativeMoniker": "D:0:0:{892709A2-8F5B-4213-A770-5F66E6B993B6}|MCDC.csproj|solutionrelative:io_control.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{892709A2-8F5B-4213-A770-5F66E6B993B6}|MCDC.csproj|e:\\coding\\microcontroller-data-context\\mcdc\\io_control.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{892709A2-8F5B-4213-A770-5F66E6B993B6}|MCDC.csproj|E:\\Coding\\MicroController-Data-Context\\MCDC\\io_control.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{892709A2-8F5B-4213-A770-5F66E6B993B6}|MCDC.csproj|solutionrelative:io_control.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{892709A2-8F5B-4213-A770-5F66E6B993B6}|MCDC.csproj|e:\\coding\\microcontroller-data-context\\mcdc\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{892709A2-8F5B-4213-A770-5F66E6B993B6}|MCDC.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{892709A2-8F5B-4213-A770-5F66E6B993B6}|MCDC.csproj|e:\\coding\\microcontroller-data-context\\mcdc\\io_control.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{892709A2-8F5B-4213-A770-5F66E6B993B6}|MCDC.csproj|solutionrelative:io_control.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{892709A2-8F5B-4213-A770-5F66E6B993B6}|MCDC.csproj|e:\\coding\\microcontroller-data-context\\mcdc\\microcontroller\\microcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{892709A2-8F5B-4213-A770-5F66E6B993B6}|MCDC.csproj|solutionrelative:microcontroller\\microcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{892709A2-8F5B-4213-A770-5F66E6B993B6}|MCDC.csproj|E:\\Coding\\MicroController-Data-Context\\MCDC\\hauptbild.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{892709A2-8F5B-4213-A770-5F66E6B993B6}|MCDC.csproj|solutionrelative:hauptbild.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{892709A2-8F5B-4213-A770-5F66E6B993B6}|MCDC.csproj|e:\\coding\\microcontroller-data-context\\mcdc\\microcontroller\\di.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{892709A2-8F5B-4213-A770-5F66E6B993B6}|MCDC.csproj|solutionrelative:microcontroller\\di.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{00000000-0000-0000-0000-000000000000}|\u003CSolution\u003E|MCDC||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
     },
     {
       "AbsoluteMoniker": "D:0:0:{892709A2-8F5B-4213-A770-5F66E6B993B6}|MCDC.csproj|e:\\coding\\microcontroller-data-context\\mcdc\\microcontroller\\do.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{892709A2-8F5B-4213-A770-5F66E6B993B6}|MCDC.csproj|solutionrelative:microcontroller\\do.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{892709A2-8F5B-4213-A770-5F66E6B993B6}|MCDC.csproj|e:\\coding\\microcontroller-data-context\\mcdc\\microcontroller\\ao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{892709A2-8F5B-4213-A770-5F66E6B993B6}|MCDC.csproj|solutionrelative:microcontroller\\ao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{892709A2-8F5B-4213-A770-5F66E6B993B6}|MCDC.csproj|e:\\coding\\microcontroller-data-context\\mcdc\\microcontroller\\ai.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{892709A2-8F5B-4213-A770-5F66E6B993B6}|MCDC.csproj|solutionrelative:microcontroller\\ai.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{892709A2-8F5B-4213-A770-5F66E6B993B6}|MCDC.csproj|e:\\coding\\microcontroller-data-context\\mcdc\\hauptbild.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{892709A2-8F5B-4213-A770-5F66E6B993B6}|MCDC.csproj|solutionrelative:hauptbild.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{892709A2-8F5B-4213-A770-5F66E6B993B6}|MCDC.csproj|e:\\coding\\microcontroller-data-context\\mcdc\\hauptbild.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{892709A2-8F5B-4213-A770-5F66E6B993B6}|MCDC.csproj|solutionrelative:hauptbild.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{892709A2-8F5B-4213-A770-5F66E6B993B6}|MCDC.csproj|E:\\Coding\\MicroController-Data-Context\\MCDC\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{892709A2-8F5B-4213-A770-5F66E6B993B6}|MCDC.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{892709A2-8F5B-4213-A770-5F66E6B993B6}|MCDC.csproj|e:\\coding\\microcontroller-data-context\\mcdc\\hauptbild.resx||{FF4D6ACA-9352-4A5F-821E-F4D6EBDCAB11}",
+      "AbsoluteMoniker": "D:0:0:{892709A2-8F5B-4213-A770-5F66E6B993B6}|MCDC.csproj|E:\\Coding\\MicroController-Data-Context\\MCDC\\microcontroller\\microcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{892709A2-8F5B-4213-A770-5F66E6B993B6}|MCDC.csproj|solutionrelative:microcontroller\\microcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{892709A2-8F5B-4213-A770-5F66E6B993B6}|MCDC.csproj|E:\\Coding\\MicroController-Data-Context\\MCDC\\microcontroller\\di.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{892709A2-8F5B-4213-A770-5F66E6B993B6}|MCDC.csproj|solutionrelative:microcontroller\\di.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{892709A2-8F5B-4213-A770-5F66E6B993B6}|MCDC.csproj|E:\\Coding\\MicroController-Data-Context\\MCDC\\microcontroller\\ao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{892709A2-8F5B-4213-A770-5F66E6B993B6}|MCDC.csproj|solutionrelative:microcontroller\\ao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{892709A2-8F5B-4213-A770-5F66E6B993B6}|MCDC.csproj|E:\\Coding\\MicroController-Data-Context\\MCDC\\microcontroller\\ai.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{892709A2-8F5B-4213-A770-5F66E6B993B6}|MCDC.csproj|solutionrelative:microcontroller\\ai.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{892709A2-8F5B-4213-A770-5F66E6B993B6}|MCDC.csproj|E:\\Coding\\MicroController-Data-Context\\MCDC\\hauptbild.resx||{FF4D6ACA-9352-4A5F-821E-F4D6EBDCAB11}",
       "RelativeMoniker": "D:0:0:{892709A2-8F5B-4213-A770-5F66E6B993B6}|MCDC.csproj|solutionrelative:hauptbild.resx||{FF4D6ACA-9352-4A5F-821E-F4D6EBDCAB11}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{892709A2-8F5B-4213-A770-5F66E6B993B6}|MCDC.csproj|e:\\coding\\microcontroller-data-context\\mcdc\\hauptbild.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{892709A2-8F5B-4213-A770-5F66E6B993B6}|MCDC.csproj|E:\\Coding\\MicroController-Data-Context\\MCDC\\hauptbild.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{892709A2-8F5B-4213-A770-5F66E6B993B6}|MCDC.csproj|solutionrelative:hauptbild.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{892709A2-8F5B-4213-A770-5F66E6B993B6}|MCDC.csproj|e:\\coding\\microcontroller-data-context\\mcdc\\||{B270807C-D8C6-49EB-8EBE-8E8D566637A1}|5e9a8ac2-4f34-4521-858f-4c248ba31532"
     }
   ],
   "DocumentGroupContainers": [
@@ -57,8 +67,8 @@
       "VerticalTabListWidth": 256,
       "DocumentGroups": [
         {
-          "DockedWidth": 200,
-          "SelectedChildIndex": 8,
+          "DockedWidth": 246,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Bookmark",
@@ -67,6 +77,31 @@
             {
               "$type": "Document",
               "DocumentIndex": 4,
+              "Title": "MCDC",
+              "DocumentMoniker": "E:\\Coding\\MicroController-Data-Context\\MCDC\\MCDC.csproj",
+              "RelativeDocumentMoniker": "MCDC.csproj",
+              "ToolTip": "E:\\Coding\\MicroController-Data-Context\\MCDC\\MCDC.csproj",
+              "RelativeToolTip": "MCDC.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-09-21T20:20:37.002Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "DO.cs",
+              "DocumentMoniker": "E:\\Coding\\MicroController-Data-Context\\MCDC\\Microcontroller\\DO.cs",
+              "RelativeDocumentMoniker": "Microcontroller\\DO.cs",
+              "ToolTip": "E:\\Coding\\MicroController-Data-Context\\MCDC\\Microcontroller\\DO.cs",
+              "RelativeToolTip": "Microcontroller\\DO.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-21T12:57:22.146Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
               "Title": "DI.cs",
               "DocumentMoniker": "E:\\Coding\\MicroController-Data-Context\\MCDC\\Microcontroller\\DI.cs",
               "RelativeDocumentMoniker": "Microcontroller\\DI.cs",
@@ -74,72 +109,7 @@
               "RelativeToolTip": "Microcontroller\\DI.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABkAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-21T12:57:15.083Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "AO.cs",
-              "DocumentMoniker": "E:\\Coding\\MicroController-Data-Context\\MCDC\\Microcontroller\\AO.cs",
-              "RelativeDocumentMoniker": "Microcontroller\\AO.cs",
-              "ToolTip": "E:\\Coding\\MicroController-Data-Context\\MCDC\\Microcontroller\\AO.cs",
-              "RelativeToolTip": "Microcontroller\\AO.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-21T12:57:03.497Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "AI.cs",
-              "DocumentMoniker": "E:\\Coding\\MicroController-Data-Context\\MCDC\\Microcontroller\\AI.cs",
-              "RelativeDocumentMoniker": "Microcontroller\\AI.cs",
-              "ToolTip": "E:\\Coding\\MicroController-Data-Context\\MCDC\\Microcontroller\\AI.cs",
-              "RelativeToolTip": "Microcontroller\\AI.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-21T12:56:52.613Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Microcontroller.cs",
-              "DocumentMoniker": "E:\\Coding\\MicroController-Data-Context\\MCDC\\Microcontroller\\Microcontroller.cs",
-              "RelativeDocumentMoniker": "Microcontroller\\Microcontroller.cs",
-              "ToolTip": "E:\\Coding\\MicroController-Data-Context\\MCDC\\Microcontroller\\Microcontroller.cs",
-              "RelativeToolTip": "Microcontroller\\Microcontroller.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAqwBUAAAAJAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-21T12:51:43.744Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Program.cs",
-              "DocumentMoniker": "E:\\Coding\\MicroController-Data-Context\\MCDC\\Program.cs",
-              "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "E:\\Coding\\MicroController-Data-Context\\MCDC\\Program.cs",
-              "RelativeToolTip": "Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABkAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-21T12:47:34.674Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "Hauptbild.cs [Entwurf]",
-              "DocumentMoniker": "E:\\Coding\\MicroController-Data-Context\\MCDC\\Hauptbild.cs",
-              "RelativeDocumentMoniker": "Hauptbild.cs",
-              "ToolTip": "E:\\Coding\\MicroController-Data-Context\\MCDC\\Hauptbild.cs [Entwurf]",
-              "RelativeToolTip": "Hauptbild.cs [Entwurf]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-21T06:42:08.197Z",
-              "EditorCaption": " [Entwurf]"
+              "WhenOpened": "2024-09-21T12:57:15.083Z"
             },
             {
               "$type": "Document",
@@ -155,20 +125,80 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "DO.cs",
-              "DocumentMoniker": "E:\\Coding\\MicroController-Data-Context\\MCDC\\Microcontroller\\DO.cs",
-              "RelativeDocumentMoniker": "Microcontroller\\DO.cs",
-              "ToolTip": "E:\\Coding\\MicroController-Data-Context\\MCDC\\Microcontroller\\DO.cs",
-              "RelativeToolTip": "Microcontroller\\DO.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "DocumentIndex": 2,
+              "Title": "IO_Control.Designer.cs",
+              "DocumentMoniker": "E:\\Coding\\MicroController-Data-Context\\MCDC\\IO_Control.Designer.cs",
+              "RelativeDocumentMoniker": "IO_Control.Designer.cs",
+              "ToolTip": "E:\\Coding\\MicroController-Data-Context\\MCDC\\IO_Control.Designer.cs",
+              "RelativeToolTip": "IO_Control.Designer.cs",
+              "ViewState": "AQIAADwAAAAAAAAAAAAqwFkAAAA1AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-21T12:57:22.146Z",
+              "WhenOpened": "2024-09-21T21:08:44.413Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "AO.cs",
+              "DocumentMoniker": "E:\\Coding\\MicroController-Data-Context\\MCDC\\Microcontroller\\AO.cs",
+              "RelativeDocumentMoniker": "Microcontroller\\AO.cs",
+              "ToolTip": "E:\\Coding\\MicroController-Data-Context\\MCDC\\Microcontroller\\AO.cs",
+              "RelativeToolTip": "Microcontroller\\AO.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-21T12:57:03.497Z"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 11,
+              "Title": "AI.cs",
+              "DocumentMoniker": "E:\\Coding\\MicroController-Data-Context\\MCDC\\Microcontroller\\AI.cs",
+              "RelativeDocumentMoniker": "Microcontroller\\AI.cs",
+              "ToolTip": "E:\\Coding\\MicroController-Data-Context\\MCDC\\Microcontroller\\AI.cs",
+              "RelativeToolTip": "Microcontroller\\AI.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-21T12:56:52.613Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Microcontroller.cs",
+              "DocumentMoniker": "E:\\Coding\\MicroController-Data-Context\\MCDC\\Microcontroller\\Microcontroller.cs",
+              "RelativeDocumentMoniker": "Microcontroller\\Microcontroller.cs",
+              "ToolTip": "E:\\Coding\\MicroController-Data-Context\\MCDC\\Microcontroller\\Microcontroller.cs",
+              "RelativeToolTip": "Microcontroller\\Microcontroller.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwBUAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-21T12:51:43.744Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Program.cs",
+              "DocumentMoniker": "E:\\Coding\\MicroController-Data-Context\\MCDC\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "E:\\Coding\\MicroController-Data-Context\\MCDC\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-21T12:47:34.674Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Hauptbild.cs [Entwurf]",
+              "DocumentMoniker": "E:\\Coding\\MicroController-Data-Context\\MCDC\\Hauptbild.cs",
+              "RelativeDocumentMoniker": "Hauptbild.cs",
+              "ToolTip": "E:\\Coding\\MicroController-Data-Context\\MCDC\\Hauptbild.cs [Entwurf]",
+              "RelativeToolTip": "Hauptbild.cs [Entwurf]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-21T06:42:08.197Z",
+              "EditorCaption": " [Entwurf]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
               "Title": "Hauptbild.Designer.cs",
               "DocumentMoniker": "E:\\Coding\\MicroController-Data-Context\\MCDC\\Hauptbild.Designer.cs",
               "RelativeDocumentMoniker": "Hauptbild.Designer.cs",
@@ -181,7 +211,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 12,
               "Title": "Hauptbild.resx",
               "DocumentMoniker": "E:\\Coding\\MicroController-Data-Context\\MCDC\\Hauptbild.resx",
               "RelativeDocumentMoniker": "Hauptbild.resx",
@@ -192,24 +222,9 @@
               "EditorCaption": ""
             }
           ]
-        }
-      ]
-    },
-    {
-      "Orientation": 0,
-      "VerticalTabListWidth": 256,
-      "FloatingWindowState": {
-        "Id": "1073362e-bd63-4e09-a019-ba1e62e68ae1",
-        "Display": 0,
-        "X": 1791,
-        "Y": 23,
-        "Width": 1437,
-        "Height": 1345,
-        "WindowState": 0
-      },
-      "DocumentGroups": [
+        },
         {
-          "DockedWidth": 200,
+          "DockedWidth": 154,
           "SelectedChildIndex": 0,
           "Children": [
             {
@@ -220,7 +235,7 @@
               "RelativeDocumentMoniker": "IO_Control.cs",
               "ToolTip": "E:\\Coding\\MicroController-Data-Context\\MCDC\\IO_Control.cs",
               "RelativeToolTip": "IO_Control.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAACkAAAATAAAA",
+              "ViewState": "AQIAABwAAAAAAAAAAAA6wD0AAAAfAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-21T12:11:19.066Z",
               "EditorCaption": ""
@@ -236,9 +251,9 @@
         "Id": "adc2aa5e-f9f2-45a4-9ca1-09f44eae4a00",
         "Display": 0,
         "X": 1868,
-        "Y": 95,
+        "Y": 0,
         "Width": 743,
-        "Height": 1088,
+        "Height": 1397,
         "WindowState": 0
       },
       "DocumentGroups": [
@@ -248,7 +263,7 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 6,
               "Title": "Hauptbild.cs",
               "DocumentMoniker": "E:\\Coding\\MicroController-Data-Context\\MCDC\\Hauptbild.cs",
               "RelativeDocumentMoniker": "Hauptbild.cs",

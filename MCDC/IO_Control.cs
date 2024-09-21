@@ -6,6 +6,7 @@ using System.Drawing;
 using System.IO.Ports;
 using System.Linq;
 using System.Text;
+using System.Threading;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using MCDC.Microcontroller;
@@ -32,17 +33,37 @@ namespace MCDC
 
         private void ScanUSBforController()
         {
+            ComboBoxAvailablePorts.Items.Clear();
             string[] ports = SerialPort.GetPortNames();
             foreach (string port in ports)
             {
-                SerialPort sp = new SerialPort();
-                sp.PortName = port;
-                sp.Parity = Parity.None;
-                sp.StopBits = StopBits.One; 
-                sp.
-                try()
-                MessageBox.Show(ports.Length.ToString());
+                ComboBoxAvailablePorts.Items.Add(port); 
             }
+
+        }
+
+        private void IO_Control_Load(object sender, EventArgs e)
+        {
+            ScanUSBforController();
+        }
+
+        private void ButtonConnectMicrocontroller_Click(object sender, EventArgs e)
+        {
+            int baudrate;
+            Int32.TryParse(ComboBoxBaudRate.SelectedItem.ToString(), out baudrate);
+            Console.WriteLine(ComboBoxAvailablePorts.SelectedIndex.ToString());
+            SerialPort sp = new SerialPort(ComboBoxAvailablePorts.SelectedItem.ToString(), baudrate);
+            sp.Open();
+            Console.WriteLine("SerialPort opened");
+            if (sp.IsOpen)
+            {
+                sp.WriteLine("Connecting MCDC");
+            }
+            Thread.Sleep(1000);
+        }
+
+        private void ComboBoxAvailablePorts_SelectedIndexChanged(object sender, EventArgs e)
+        {
 
         }
     }

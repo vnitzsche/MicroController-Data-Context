@@ -5,8 +5,5 @@ void setup() {
 }
 
 void loop() {
-  if(Serial.available()){
-    String readString = Serial.readString();
-    Serial.write("OK: Microcontroller 1");
-  }
+  Serial.print(Serial.readString());
 }
