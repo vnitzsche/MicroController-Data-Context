@@ -1,0 +1,12 @@
+E:\Coding\MicroController-Data-Context\MCDC\bin\Debug\MCDC.exe.config
+E:\Coding\MicroController-Data-Context\MCDC\bin\Debug\MCDC.exe
+E:\Coding\MicroController-Data-Context\MCDC\bin\Debug\MCDC.pdb
+E:\Coding\MicroController-Data-Context\MCDC\bin\Debug\Guna.UI2.dll
+E:\Coding\MicroController-Data-Context\MCDC\obj\Debug\MCDC.csproj.AssemblyReference.cache
+E:\Coding\MicroController-Data-Context\MCDC\obj\Debug\MCDC.Form1.resources
+E:\Coding\MicroController-Data-Context\MCDC\obj\Debug\MCDC.Properties.Resources.resources
+E:\Coding\MicroController-Data-Context\MCDC\obj\Debug\MCDC.csproj.GenerateResource.cache
+E:\Coding\MicroController-Data-Context\MCDC\obj\Debug\MCDC.csproj.CoreCompileInputs.cache
+E:\Coding\MicroController-Data-Context\MCDC\obj\Debug\MCDC.csproj.Up2Date
+E:\Coding\MicroController-Data-Context\MCDC\obj\Debug\MCDC.exe
+E:\Coding\MicroController-Data-Context\MCDC\obj\Debug\MCDC.pdb
