@@ -65,21 +65,8 @@ namespace MCDC
                 sp.WriteLine("Connecting MCDC");
             }
             sp.Close();
-            CreateDI();
-        }
 
-        private void CreateDI()
-        {
             IO test = new IO(1, "Name", 1, 1, PinType.DigitalInput, Hauptbild.FormIOControl);
-        }
-        private void ComboBoxAvailablePorts_SelectedIndexChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void SwitchOverwriteActivate_CheckedChanged(object sender, EventArgs e)
-        {
-
         }
     }
 }

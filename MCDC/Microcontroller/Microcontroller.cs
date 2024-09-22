@@ -12,15 +12,21 @@ namespace MCDC.Microcontroller
 {
     internal class Microcontroller
     {
+        
         public int MicrocontrollerID;
         public string MicrocontrollerName;
         public string SerialPortName;
+
+        private Timer UpdateIOLoop;
 
         private IO[] GPIOs;
         public Microcontroller(int microcontrollerID, string microcontrollerName)
         {  
             MicrocontrollerID = microcontrollerID;
             MicrocontrollerName = microcontrollerName;
+
+            UpdateIOLoop = new Timer();
+            UpdateIOLoop.Interval = 
         }
     }
 }

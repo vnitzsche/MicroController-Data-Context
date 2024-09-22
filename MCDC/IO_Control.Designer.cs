@@ -38,28 +38,21 @@
             this.LabelPort = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.LabelBaudrate = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.guna2Panel2 = new Guna.UI2.WinForms.Guna2Panel();
-            this.GroupBoxController = new Guna.UI2.WinForms.Guna2GroupBox();
             this.TabControlIO = new System.Windows.Forms.TabControl();
             this.TabPageDI = new System.Windows.Forms.TabPage();
             this.TableLayoutPanelDI = new System.Windows.Forms.TableLayoutPanel();
-            this.SwitchOverwriteValue = new Guna.UI2.WinForms.Guna2ToggleSwitch();
-            this.SwitchOverwriteActivate = new Guna.UI2.WinForms.Guna2ToggleSwitch();
-            this.RadioButtonActiveValue = new Guna.UI2.WinForms.Guna2CustomRadioButton();
-            this.LabelDI1_PinID = new System.Windows.Forms.Label();
-            this.DI1_Name = new System.Windows.Forms.Label();
             this.tabPageDO = new System.Windows.Forms.TabPage();
             this.TableLayoutPanelDO = new System.Windows.Forms.TableLayoutPanel();
             this.TabPageAI = new System.Windows.Forms.TabPage();
             this.TableLayoutPanelAI = new System.Windows.Forms.TableLayoutPanel();
             this.TabPageAO = new System.Windows.Forms.TabPage();
             this.TableLayoutPanelAO = new System.Windows.Forms.TableLayoutPanel();
+            this.guna2TextBox1 = new Guna.UI2.WinForms.Guna2TextBox();
             this.guna2Panel1.SuspendLayout();
             this.tableLayoutPanel1.SuspendLayout();
             this.guna2Panel2.SuspendLayout();
-            this.GroupBoxController.SuspendLayout();
             this.TabControlIO.SuspendLayout();
             this.TabPageDI.SuspendLayout();
-            this.TableLayoutPanelDI.SuspendLayout();
             this.tabPageDO.SuspendLayout();
             this.TabPageAI.SuspendLayout();
             this.TabPageAO.SuspendLayout();
@@ -122,12 +115,11 @@
             this.ComboBoxAvailablePorts.HoverState.Parent = this.ComboBoxAvailablePorts;
             this.ComboBoxAvailablePorts.ItemHeight = 30;
             this.ComboBoxAvailablePorts.ItemsAppearance.Parent = this.ComboBoxAvailablePorts;
-            this.ComboBoxAvailablePorts.Location = new System.Drawing.Point(3, 51);
+            this.ComboBoxAvailablePorts.Location = new System.Drawing.Point(6, 51);
             this.ComboBoxAvailablePorts.Name = "ComboBoxAvailablePorts";
             this.ComboBoxAvailablePorts.ShadowDecoration.Parent = this.ComboBoxAvailablePorts;
-            this.ComboBoxAvailablePorts.Size = new System.Drawing.Size(114, 36);
+            this.ComboBoxAvailablePorts.Size = new System.Drawing.Size(111, 36);
             this.ComboBoxAvailablePorts.TabIndex = 1;
-            this.ComboBoxAvailablePorts.SelectedIndexChanged += new System.EventHandler(this.ComboBoxAvailablePorts_SelectedIndexChanged);
             // 
             // ButtonConnectMicrocontroller
             // 
@@ -158,6 +150,7 @@
             this.tableLayoutPanel1.Dock = System.Windows.Forms.DockStyle.Top;
             this.tableLayoutPanel1.Location = new System.Drawing.Point(0, 0);
             this.tableLayoutPanel1.Name = "tableLayoutPanel1";
+            this.tableLayoutPanel1.Padding = new System.Windows.Forms.Padding(3);
             this.tableLayoutPanel1.RowCount = 2;
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
@@ -192,7 +185,7 @@
             this.ComboBoxBaudRate.Location = new System.Drawing.Point(123, 51);
             this.ComboBoxBaudRate.Name = "ComboBoxBaudRate";
             this.ComboBoxBaudRate.ShadowDecoration.Parent = this.ComboBoxBaudRate;
-            this.ComboBoxBaudRate.Size = new System.Drawing.Size(115, 36);
+            this.ComboBoxBaudRate.Size = new System.Drawing.Size(112, 36);
             this.ComboBoxBaudRate.StartIndex = 7;
             this.ComboBoxBaudRate.TabIndex = 2;
             // 
@@ -201,9 +194,9 @@
             this.LabelPort.BackColor = System.Drawing.Color.Transparent;
             this.LabelPort.Dock = System.Windows.Forms.DockStyle.Fill;
             this.LabelPort.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.LabelPort.Location = new System.Drawing.Point(3, 3);
+            this.LabelPort.Location = new System.Drawing.Point(6, 6);
             this.LabelPort.Name = "LabelPort";
-            this.LabelPort.Size = new System.Drawing.Size(114, 42);
+            this.LabelPort.Size = new System.Drawing.Size(47, 31);
             this.LabelPort.TabIndex = 3;
             this.LabelPort.Text = "Port";
             this.LabelPort.TextAlignment = System.Drawing.ContentAlignment.MiddleCenter;
@@ -213,9 +206,9 @@
             this.LabelBaudrate.BackColor = System.Drawing.Color.Transparent;
             this.LabelBaudrate.Dock = System.Windows.Forms.DockStyle.Fill;
             this.LabelBaudrate.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.LabelBaudrate.Location = new System.Drawing.Point(123, 3);
+            this.LabelBaudrate.Location = new System.Drawing.Point(123, 6);
             this.LabelBaudrate.Name = "LabelBaudrate";
-            this.LabelBaudrate.Size = new System.Drawing.Size(115, 42);
+            this.LabelBaudrate.Size = new System.Drawing.Size(100, 31);
             this.LabelBaudrate.TabIndex = 4;
             this.LabelBaudrate.Text = "Baudrate";
             this.LabelBaudrate.TextAlignment = System.Drawing.ContentAlignment.MiddleCenter;
@@ -224,24 +217,11 @@
             // 
             this.guna2Panel2.Controls.Add(this.tableLayoutPanel1);
             this.guna2Panel2.Controls.Add(this.ButtonConnectMicrocontroller);
-            this.guna2Panel2.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.guna2Panel2.Location = new System.Drawing.Point(0, 96);
+            this.guna2Panel2.Location = new System.Drawing.Point(1113, 106);
             this.guna2Panel2.Name = "guna2Panel2";
             this.guna2Panel2.ShadowDecoration.Parent = this.guna2Panel2;
             this.guna2Panel2.Size = new System.Drawing.Size(241, 138);
             this.guna2Panel2.TabIndex = 6;
-            // 
-            // GroupBoxController
-            // 
-            this.GroupBoxController.Controls.Add(this.guna2Panel2);
-            this.GroupBoxController.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.GroupBoxController.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(125)))), ((int)(((byte)(137)))), ((int)(((byte)(149)))));
-            this.GroupBoxController.Location = new System.Drawing.Point(1113, 106);
-            this.GroupBoxController.Name = "GroupBoxController";
-            this.GroupBoxController.ShadowDecoration.Parent = this.GroupBoxController;
-            this.GroupBoxController.Size = new System.Drawing.Size(241, 234);
-            this.GroupBoxController.TabIndex = 7;
-            this.GroupBoxController.Text = "Microcontroller";
             // 
             // TabControlIO
             // 
@@ -273,109 +253,21 @@
             this.TableLayoutPanelDI.AllowDrop = true;
             this.TableLayoutPanelDI.AutoSize = true;
             this.TableLayoutPanelDI.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
-            this.TableLayoutPanelDI.ColumnCount = 5;
+            this.TableLayoutPanelDI.ColumnCount = 6;
+            this.TableLayoutPanelDI.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 35F));
             this.TableLayoutPanelDI.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 35F));
             this.TableLayoutPanelDI.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 70F));
             this.TableLayoutPanelDI.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 70F));
             this.TableLayoutPanelDI.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 50F));
             this.TableLayoutPanelDI.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 541F));
-            this.TableLayoutPanelDI.Controls.Add(this.SwitchOverwriteValue, 2, 0);
-            this.TableLayoutPanelDI.Controls.Add(this.SwitchOverwriteActivate, 1, 0);
-            this.TableLayoutPanelDI.Controls.Add(this.RadioButtonActiveValue, 0, 0);
-            this.TableLayoutPanelDI.Controls.Add(this.LabelDI1_PinID, 3, 0);
-            this.TableLayoutPanelDI.Controls.Add(this.DI1_Name, 4, 0);
             this.TableLayoutPanelDI.Dock = System.Windows.Forms.DockStyle.Top;
             this.TableLayoutPanelDI.Font = new System.Drawing.Font("Microsoft Sans Serif", 3.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.TableLayoutPanelDI.Location = new System.Drawing.Point(3, 3);
             this.TableLayoutPanelDI.Name = "TableLayoutPanelDI";
             this.TableLayoutPanelDI.RowCount = 1;
             this.TableLayoutPanelDI.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 36F));
-            this.TableLayoutPanelDI.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
             this.TableLayoutPanelDI.Size = new System.Drawing.Size(766, 36);
             this.TableLayoutPanelDI.TabIndex = 0;
-            // 
-            // SwitchOverwriteValue
-            // 
-            this.SwitchOverwriteValue.CheckedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.SwitchOverwriteValue.CheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.SwitchOverwriteValue.CheckedState.InnerBorderColor = System.Drawing.Color.White;
-            this.SwitchOverwriteValue.CheckedState.InnerColor = System.Drawing.Color.White;
-            this.SwitchOverwriteValue.CheckedState.Parent = this.SwitchOverwriteValue;
-            this.SwitchOverwriteValue.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.SwitchOverwriteValue.Location = new System.Drawing.Point(108, 3);
-            this.SwitchOverwriteValue.Name = "SwitchOverwriteValue";
-            this.SwitchOverwriteValue.ShadowDecoration.Parent = this.SwitchOverwriteValue;
-            this.SwitchOverwriteValue.Size = new System.Drawing.Size(64, 30);
-            this.SwitchOverwriteValue.TabIndex = 3;
-            this.SwitchOverwriteValue.UncheckedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(125)))), ((int)(((byte)(137)))), ((int)(((byte)(149)))));
-            this.SwitchOverwriteValue.UncheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(125)))), ((int)(((byte)(137)))), ((int)(((byte)(149)))));
-            this.SwitchOverwriteValue.UncheckedState.InnerBorderColor = System.Drawing.Color.White;
-            this.SwitchOverwriteValue.UncheckedState.InnerColor = System.Drawing.Color.White;
-            this.SwitchOverwriteValue.UncheckedState.Parent = this.SwitchOverwriteValue;
-            // 
-            // SwitchOverwriteActivate
-            // 
-            this.SwitchOverwriteActivate.CheckedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.SwitchOverwriteActivate.CheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.SwitchOverwriteActivate.CheckedState.InnerBorderColor = System.Drawing.Color.White;
-            this.SwitchOverwriteActivate.CheckedState.InnerColor = System.Drawing.Color.White;
-            this.SwitchOverwriteActivate.CheckedState.Parent = this.SwitchOverwriteActivate;
-            this.SwitchOverwriteActivate.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.SwitchOverwriteActivate.Location = new System.Drawing.Point(38, 3);
-            this.SwitchOverwriteActivate.Name = "SwitchOverwriteActivate";
-            this.SwitchOverwriteActivate.ShadowDecoration.Parent = this.SwitchOverwriteActivate;
-            this.SwitchOverwriteActivate.Size = new System.Drawing.Size(64, 30);
-            this.SwitchOverwriteActivate.TabIndex = 1;
-            this.SwitchOverwriteActivate.UncheckedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(125)))), ((int)(((byte)(137)))), ((int)(((byte)(149)))));
-            this.SwitchOverwriteActivate.UncheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(125)))), ((int)(((byte)(137)))), ((int)(((byte)(149)))));
-            this.SwitchOverwriteActivate.UncheckedState.InnerBorderColor = System.Drawing.Color.White;
-            this.SwitchOverwriteActivate.UncheckedState.InnerColor = System.Drawing.Color.White;
-            this.SwitchOverwriteActivate.UncheckedState.Parent = this.SwitchOverwriteActivate;
-            this.SwitchOverwriteActivate.CheckedChanged += new System.EventHandler(this.SwitchOverwriteActivate_CheckedChanged);
-            // 
-            // RadioButtonActiveValue
-            // 
-            this.RadioButtonActiveValue.CheckedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.RadioButtonActiveValue.CheckedState.BorderThickness = 0;
-            this.RadioButtonActiveValue.CheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.RadioButtonActiveValue.CheckedState.InnerColor = System.Drawing.Color.GreenYellow;
-            this.RadioButtonActiveValue.CheckedState.Parent = this.RadioButtonActiveValue;
-            this.RadioButtonActiveValue.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.RadioButtonActiveValue.Enabled = false;
-            this.RadioButtonActiveValue.Location = new System.Drawing.Point(3, 3);
-            this.RadioButtonActiveValue.Name = "RadioButtonActiveValue";
-            this.RadioButtonActiveValue.ShadowDecoration.Parent = this.RadioButtonActiveValue;
-            this.RadioButtonActiveValue.Size = new System.Drawing.Size(29, 30);
-            this.RadioButtonActiveValue.TabIndex = 2;
-            this.RadioButtonActiveValue.UncheckedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(125)))), ((int)(((byte)(137)))), ((int)(((byte)(149)))));
-            this.RadioButtonActiveValue.UncheckedState.BorderThickness = 2;
-            this.RadioButtonActiveValue.UncheckedState.FillColor = System.Drawing.Color.Silver;
-            this.RadioButtonActiveValue.UncheckedState.InnerColor = System.Drawing.Color.Transparent;
-            this.RadioButtonActiveValue.UncheckedState.Parent = this.RadioButtonActiveValue;
-            // 
-            // LabelDI1_PinID
-            // 
-            this.LabelDI1_PinID.AutoSize = true;
-            this.LabelDI1_PinID.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.LabelDI1_PinID.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.LabelDI1_PinID.Location = new System.Drawing.Point(178, 0);
-            this.LabelDI1_PinID.Name = "LabelDI1_PinID";
-            this.LabelDI1_PinID.Size = new System.Drawing.Size(44, 36);
-            this.LabelDI1_PinID.TabIndex = 5;
-            this.LabelDI1_PinID.Text = "DI1_PinID";
-            this.LabelDI1_PinID.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // DI1_Name
-            // 
-            this.DI1_Name.AutoSize = true;
-            this.DI1_Name.Dock = System.Windows.Forms.DockStyle.Left;
-            this.DI1_Name.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.DI1_Name.Location = new System.Drawing.Point(228, 0);
-            this.DI1_Name.Name = "DI1_Name";
-            this.DI1_Name.Size = new System.Drawing.Size(98, 36);
-            this.DI1_Name.TabIndex = 6;
-            this.DI1_Name.Text = "DI1_Name";
-            this.DI1_Name.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // tabPageDO
             // 
@@ -390,16 +282,24 @@
             // 
             // TableLayoutPanelDO
             // 
-            this.TableLayoutPanelDO.ColumnCount = 2;
-            this.TableLayoutPanelDO.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
-            this.TableLayoutPanelDO.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
-            this.TableLayoutPanelDO.Location = new System.Drawing.Point(146, 258);
+            this.TableLayoutPanelDO.AllowDrop = true;
+            this.TableLayoutPanelDO.AutoSize = true;
+            this.TableLayoutPanelDO.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
+            this.TableLayoutPanelDO.ColumnCount = 5;
+            this.TableLayoutPanelDO.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 35F));
+            this.TableLayoutPanelDO.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 70F));
+            this.TableLayoutPanelDO.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 70F));
+            this.TableLayoutPanelDO.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 50F));
+            this.TableLayoutPanelDO.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 541F));
+            this.TableLayoutPanelDO.Dock = System.Windows.Forms.DockStyle.Top;
+            this.TableLayoutPanelDO.Font = new System.Drawing.Font("Microsoft Sans Serif", 3.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.TableLayoutPanelDO.Location = new System.Drawing.Point(3, 3);
             this.TableLayoutPanelDO.Name = "TableLayoutPanelDO";
-            this.TableLayoutPanelDO.RowCount = 2;
-            this.TableLayoutPanelDO.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
-            this.TableLayoutPanelDO.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
-            this.TableLayoutPanelDO.Size = new System.Drawing.Size(200, 100);
-            this.TableLayoutPanelDO.TabIndex = 0;
+            this.TableLayoutPanelDO.RowCount = 1;
+            this.TableLayoutPanelDO.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 36F));
+            this.TableLayoutPanelDO.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
+            this.TableLayoutPanelDO.Size = new System.Drawing.Size(766, 36);
+            this.TableLayoutPanelDO.TabIndex = 1;
             // 
             // TabPageAI
             // 
@@ -414,16 +314,24 @@
             // 
             // TableLayoutPanelAI
             // 
-            this.TableLayoutPanelAI.ColumnCount = 2;
-            this.TableLayoutPanelAI.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
-            this.TableLayoutPanelAI.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
-            this.TableLayoutPanelAI.Location = new System.Drawing.Point(332, 176);
+            this.TableLayoutPanelAI.AllowDrop = true;
+            this.TableLayoutPanelAI.AutoSize = true;
+            this.TableLayoutPanelAI.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
+            this.TableLayoutPanelAI.ColumnCount = 5;
+            this.TableLayoutPanelAI.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 35F));
+            this.TableLayoutPanelAI.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 70F));
+            this.TableLayoutPanelAI.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 70F));
+            this.TableLayoutPanelAI.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 50F));
+            this.TableLayoutPanelAI.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 541F));
+            this.TableLayoutPanelAI.Dock = System.Windows.Forms.DockStyle.Top;
+            this.TableLayoutPanelAI.Font = new System.Drawing.Font("Microsoft Sans Serif", 3.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.TableLayoutPanelAI.Location = new System.Drawing.Point(3, 3);
             this.TableLayoutPanelAI.Name = "TableLayoutPanelAI";
-            this.TableLayoutPanelAI.RowCount = 2;
-            this.TableLayoutPanelAI.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
-            this.TableLayoutPanelAI.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
-            this.TableLayoutPanelAI.Size = new System.Drawing.Size(200, 100);
-            this.TableLayoutPanelAI.TabIndex = 0;
+            this.TableLayoutPanelAI.RowCount = 1;
+            this.TableLayoutPanelAI.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 36F));
+            this.TableLayoutPanelAI.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
+            this.TableLayoutPanelAI.Size = new System.Drawing.Size(766, 36);
+            this.TableLayoutPanelAI.TabIndex = 2;
             // 
             // TabPageAO
             // 
@@ -438,24 +346,55 @@
             // 
             // TableLayoutPanelAO
             // 
-            this.TableLayoutPanelAO.ColumnCount = 2;
-            this.TableLayoutPanelAO.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
-            this.TableLayoutPanelAO.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
-            this.TableLayoutPanelAO.Location = new System.Drawing.Point(447, 245);
+            this.TableLayoutPanelAO.AllowDrop = true;
+            this.TableLayoutPanelAO.AutoSize = true;
+            this.TableLayoutPanelAO.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
+            this.TableLayoutPanelAO.ColumnCount = 5;
+            this.TableLayoutPanelAO.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 35F));
+            this.TableLayoutPanelAO.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 70F));
+            this.TableLayoutPanelAO.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 70F));
+            this.TableLayoutPanelAO.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 50F));
+            this.TableLayoutPanelAO.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 541F));
+            this.TableLayoutPanelAO.Dock = System.Windows.Forms.DockStyle.Top;
+            this.TableLayoutPanelAO.Font = new System.Drawing.Font("Microsoft Sans Serif", 3.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.TableLayoutPanelAO.Location = new System.Drawing.Point(3, 3);
             this.TableLayoutPanelAO.Name = "TableLayoutPanelAO";
-            this.TableLayoutPanelAO.RowCount = 2;
-            this.TableLayoutPanelAO.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
-            this.TableLayoutPanelAO.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
-            this.TableLayoutPanelAO.Size = new System.Drawing.Size(200, 100);
-            this.TableLayoutPanelAO.TabIndex = 0;
+            this.TableLayoutPanelAO.RowCount = 1;
+            this.TableLayoutPanelAO.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 36F));
+            this.TableLayoutPanelAO.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
+            this.TableLayoutPanelAO.Size = new System.Drawing.Size(766, 36);
+            this.TableLayoutPanelAO.TabIndex = 2;
+            // 
+            // guna2TextBox1
+            // 
+            this.guna2TextBox1.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.guna2TextBox1.DefaultText = "";
+            this.guna2TextBox1.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
+            this.guna2TextBox1.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
+            this.guna2TextBox1.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.guna2TextBox1.DisabledState.Parent = this.guna2TextBox1;
+            this.guna2TextBox1.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.guna2TextBox1.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.guna2TextBox1.FocusedState.Parent = this.guna2TextBox1;
+            this.guna2TextBox1.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.guna2TextBox1.HoverState.Parent = this.guna2TextBox1;
+            this.guna2TextBox1.Location = new System.Drawing.Point(1119, 261);
+            this.guna2TextBox1.Name = "guna2TextBox1";
+            this.guna2TextBox1.PasswordChar = '\0';
+            this.guna2TextBox1.PlaceholderText = "";
+            this.guna2TextBox1.SelectedText = "";
+            this.guna2TextBox1.ShadowDecoration.Parent = this.guna2TextBox1;
+            this.guna2TextBox1.Size = new System.Drawing.Size(200, 36);
+            this.guna2TextBox1.TabIndex = 9;
             // 
             // IO_Control
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1366, 874);
+            this.Controls.Add(this.guna2TextBox1);
+            this.Controls.Add(this.guna2Panel2);
             this.Controls.Add(this.TabControlIO);
-            this.Controls.Add(this.GroupBoxController);
             this.Controls.Add(this.guna2Panel1);
             this.Name = "IO_Control";
             this.Text = "IO_Control";
@@ -465,15 +404,15 @@
             this.tableLayoutPanel1.ResumeLayout(false);
             this.tableLayoutPanel1.PerformLayout();
             this.guna2Panel2.ResumeLayout(false);
-            this.GroupBoxController.ResumeLayout(false);
             this.TabControlIO.ResumeLayout(false);
             this.TabPageDI.ResumeLayout(false);
             this.TabPageDI.PerformLayout();
-            this.TableLayoutPanelDI.ResumeLayout(false);
-            this.TableLayoutPanelDI.PerformLayout();
             this.tabPageDO.ResumeLayout(false);
+            this.tabPageDO.PerformLayout();
             this.TabPageAI.ResumeLayout(false);
+            this.TabPageAI.PerformLayout();
             this.TabPageAO.ResumeLayout(false);
+            this.TabPageAO.PerformLayout();
             this.ResumeLayout(false);
 
         }
@@ -489,21 +428,16 @@
         private Guna.UI2.WinForms.Guna2ComboBox ComboBoxBaudRate;
         private Guna.UI2.WinForms.Guna2HtmlLabel LabelPort;
         private Guna.UI2.WinForms.Guna2HtmlLabel LabelBaudrate;
-        private Guna.UI2.WinForms.Guna2GroupBox GroupBoxController;
         private System.Windows.Forms.TabControl TabControlIO;
         private System.Windows.Forms.TabPage TabPageDI;
         private System.Windows.Forms.TabPage tabPageDO;
         private System.Windows.Forms.TabPage TabPageAI;
         private System.Windows.Forms.TabPage TabPageAO;
         public System.Windows.Forms.TableLayoutPanel TableLayoutPanelDI;
-        public Guna.UI2.WinForms.Guna2ToggleSwitch SwitchOverwriteValue;
-        public Guna.UI2.WinForms.Guna2ToggleSwitch SwitchOverwriteActivate;
-        public Guna.UI2.WinForms.Guna2CustomRadioButton RadioButtonActiveValue;
-        public System.Windows.Forms.Label LabelDI1_PinID;
-        public System.Windows.Forms.Label DI1_Name;
         private Guna.UI2.WinForms.Guna2Button ButtonReadConfiguration;
         public System.Windows.Forms.TableLayoutPanel TableLayoutPanelDO;
         public System.Windows.Forms.TableLayoutPanel TableLayoutPanelAI;
         public System.Windows.Forms.TableLayoutPanel TableLayoutPanelAO;
+        private Guna.UI2.WinForms.Guna2TextBox guna2TextBox1;
     }
 }
