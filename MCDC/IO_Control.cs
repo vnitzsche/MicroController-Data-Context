@@ -5,6 +5,7 @@ using System.Data;
 using System.Drawing;
 using System.IO.Ports;
 using System.Linq;
+using System.Security.Cryptography.X509Certificates;
 using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
@@ -17,7 +18,8 @@ namespace MCDC
     {
         public IO_Control()
         {
-            InitializeComponent();
+            InitializeComponent(); 
+            Console.WriteLine("Di init done");
         }
 
         private void IO_Control_FormClosing(object sender, FormClosingEventArgs e)
@@ -53,16 +55,29 @@ namespace MCDC
             Int32.TryParse(ComboBoxBaudRate.SelectedItem.ToString(), out baudrate);
             Console.WriteLine(ComboBoxAvailablePorts.SelectedIndex.ToString());
             SerialPort sp = new SerialPort(ComboBoxAvailablePorts.SelectedItem.ToString(), baudrate);
-            sp.Open();
+            if (!sp.IsOpen)
+            {
+                sp.Open();
+            }
             Console.WriteLine("SerialPort opened");
             if (sp.IsOpen)
             {
                 sp.WriteLine("Connecting MCDC");
             }
-            Thread.Sleep(1000);
+            sp.Close();
+            CreateDI();
         }
 
+        private void CreateDI()
+        {
+            IO test = new IO(1, "Name", 1, 1, PinType.DigitalInput, Hauptbild.FormIOControl);
+        }
         private void ComboBoxAvailablePorts_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void SwitchOverwriteActivate_CheckedChanged(object sender, EventArgs e)
         {
 
         }

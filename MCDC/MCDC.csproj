@@ -68,7 +68,7 @@
     </Compile>
     <Compile Include="Microcontroller\AI.cs" />
     <Compile Include="Microcontroller\AO.cs" />
-    <Compile Include="Microcontroller\DI.cs" />
+    <Compile Include="Microcontroller\IO.cs" />
     <Compile Include="Microcontroller\DO.cs" />
     <Compile Include="Microcontroller\Microcontroller.cs" />
     <Compile Include="Program.cs" />

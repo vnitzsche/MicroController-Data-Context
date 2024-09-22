@@ -3,43 +3,44 @@
   "WorkspaceRootPath": "E:\\Coding\\MicroController-Data-Context\\MCDC\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{892709A2-8F5B-4213-A770-5F66E6B993B6}|MCDC.csproj|e:\\coding\\microcontroller-data-context\\mcdc\\io_control.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{892709A2-8F5B-4213-A770-5F66E6B993B6}|MCDC.csproj|solutionrelative:io_control.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{892709A2-8F5B-4213-A770-5F66E6B993B6}|MCDC.csproj|e:\\coding\\microcontroller-data-context\\mcdc\\microcontroller\\io.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{892709A2-8F5B-4213-A770-5F66E6B993B6}|MCDC.csproj|solutionrelative:microcontroller\\io.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{892709A2-8F5B-4213-A770-5F66E6B993B6}|MCDC.csproj|E:\\Coding\\MicroController-Data-Context\\MCDC\\io_control.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{892709A2-8F5B-4213-A770-5F66E6B993B6}|MCDC.csproj|e:\\coding\\microcontroller-data-context\\mcdc\\io_control.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{892709A2-8F5B-4213-A770-5F66E6B993B6}|MCDC.csproj|solutionrelative:io_control.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{892709A2-8F5B-4213-A770-5F66E6B993B6}|MCDC.csproj|e:\\coding\\microcontroller-data-context\\mcdc\\io_control.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{892709A2-8F5B-4213-A770-5F66E6B993B6}|MCDC.csproj|E:\\Coding\\MicroController-Data-Context\\MCDC\\io_control.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{892709A2-8F5B-4213-A770-5F66E6B993B6}|MCDC.csproj|solutionrelative:io_control.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{892709A2-8F5B-4213-A770-5F66E6B993B6}|MCDC.csproj|E:\\Coding\\MicroController-Data-Context\\MCDC\\hauptbild.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{892709A2-8F5B-4213-A770-5F66E6B993B6}|MCDC.csproj|solutionrelative:hauptbild.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{00000000-0000-0000-0000-000000000000}|\u003CSolution\u003E|MCDC||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{892709A2-8F5B-4213-A770-5F66E6B993B6}|MCDC.csproj|e:\\coding\\microcontroller-data-context\\mcdc\\microcontroller\\do.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{892709A2-8F5B-4213-A770-5F66E6B993B6}|MCDC.csproj|solutionrelative:microcontroller\\do.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{892709A2-8F5B-4213-A770-5F66E6B993B6}|MCDC.csproj|e:\\coding\\microcontroller-data-context\\mcdc\\io_control.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{892709A2-8F5B-4213-A770-5F66E6B993B6}|MCDC.csproj|solutionrelative:io_control.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{892709A2-8F5B-4213-A770-5F66E6B993B6}|MCDC.csproj|e:\\coding\\microcontroller-data-context\\mcdc\\hauptbild.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{892709A2-8F5B-4213-A770-5F66E6B993B6}|MCDC.csproj|solutionrelative:hauptbild.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{892709A2-8F5B-4213-A770-5F66E6B993B6}|MCDC.csproj|E:\\Coding\\MicroController-Data-Context\\MCDC\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{892709A2-8F5B-4213-A770-5F66E6B993B6}|MCDC.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{892709A2-8F5B-4213-A770-5F66E6B993B6}|MCDC.csproj|E:\\Coding\\MicroController-Data-Context\\MCDC\\microcontroller\\microcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{892709A2-8F5B-4213-A770-5F66E6B993B6}|MCDC.csproj|solutionrelative:microcontroller\\microcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{892709A2-8F5B-4213-A770-5F66E6B993B6}|MCDC.csproj|E:\\Coding\\MicroController-Data-Context\\MCDC\\microcontroller\\di.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{892709A2-8F5B-4213-A770-5F66E6B993B6}|MCDC.csproj|solutionrelative:microcontroller\\di.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{892709A2-8F5B-4213-A770-5F66E6B993B6}|MCDC.csproj|E:\\Coding\\MicroController-Data-Context\\MCDC\\hauptbild.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{892709A2-8F5B-4213-A770-5F66E6B993B6}|MCDC.csproj|solutionrelative:hauptbild.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{892709A2-8F5B-4213-A770-5F66E6B993B6}|MCDC.csproj|E:\\Coding\\MicroController-Data-Context\\MCDC\\hauptbild.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{892709A2-8F5B-4213-A770-5F66E6B993B6}|MCDC.csproj|solutionrelative:hauptbild.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{892709A2-8F5B-4213-A770-5F66E6B993B6}|MCDC.csproj|E:\\Coding\\MicroController-Data-Context\\MCDC\\microcontroller\\do.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{892709A2-8F5B-4213-A770-5F66E6B993B6}|MCDC.csproj|solutionrelative:microcontroller\\do.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{892709A2-8F5B-4213-A770-5F66E6B993B6}|MCDC.csproj|E:\\Coding\\MicroController-Data-Context\\MCDC\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{892709A2-8F5B-4213-A770-5F66E6B993B6}|MCDC.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{892709A2-8F5B-4213-A770-5F66E6B993B6}|MCDC.csproj|E:\\Coding\\MicroController-Data-Context\\MCDC\\microcontroller\\ao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -52,13 +53,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{892709A2-8F5B-4213-A770-5F66E6B993B6}|MCDC.csproj|E:\\Coding\\MicroController-Data-Context\\MCDC\\hauptbild.resx||{FF4D6ACA-9352-4A5F-821E-F4D6EBDCAB11}",
       "RelativeMoniker": "D:0:0:{892709A2-8F5B-4213-A770-5F66E6B993B6}|MCDC.csproj|solutionrelative:hauptbild.resx||{FF4D6ACA-9352-4A5F-821E-F4D6EBDCAB11}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{892709A2-8F5B-4213-A770-5F66E6B993B6}|MCDC.csproj|E:\\Coding\\MicroController-Data-Context\\MCDC\\hauptbild.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{892709A2-8F5B-4213-A770-5F66E6B993B6}|MCDC.csproj|solutionrelative:hauptbild.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{892709A2-8F5B-4213-A770-5F66E6B993B6}|MCDC.csproj|e:\\coding\\microcontroller-data-context\\mcdc\\||{B270807C-D8C6-49EB-8EBE-8E8D566637A1}|5e9a8ac2-4f34-4521-858f-4c248ba31532"
     }
   ],
   "DocumentGroupContainers": [
@@ -68,7 +62,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 246,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
@@ -77,39 +71,15 @@
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "MCDC",
-              "DocumentMoniker": "E:\\Coding\\MicroController-Data-Context\\MCDC\\MCDC.csproj",
-              "RelativeDocumentMoniker": "MCDC.csproj",
-              "ToolTip": "E:\\Coding\\MicroController-Data-Context\\MCDC\\MCDC.csproj",
-              "RelativeToolTip": "MCDC.csproj",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2024-09-21T20:20:37.002Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "DO.cs",
-              "DocumentMoniker": "E:\\Coding\\MicroController-Data-Context\\MCDC\\Microcontroller\\DO.cs",
-              "RelativeDocumentMoniker": "Microcontroller\\DO.cs",
-              "ToolTip": "E:\\Coding\\MicroController-Data-Context\\MCDC\\Microcontroller\\DO.cs",
-              "RelativeToolTip": "Microcontroller\\DO.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
+              "Title": "Hauptbild.cs",
+              "DocumentMoniker": "E:\\Coding\\MicroController-Data-Context\\MCDC\\Hauptbild.cs",
+              "RelativeDocumentMoniker": "Hauptbild.cs",
+              "ToolTip": "E:\\Coding\\MicroController-Data-Context\\MCDC\\Hauptbild.cs",
+              "RelativeToolTip": "Hauptbild.cs",
+              "ViewState": "AQIAAAUAAAAAAAAAAAAqwCUAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-21T12:57:22.146Z",
+              "WhenOpened": "2024-09-22T12:01:51.602Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "DI.cs",
-              "DocumentMoniker": "E:\\Coding\\MicroController-Data-Context\\MCDC\\Microcontroller\\DI.cs",
-              "RelativeDocumentMoniker": "Microcontroller\\DI.cs",
-              "ToolTip": "E:\\Coding\\MicroController-Data-Context\\MCDC\\Microcontroller\\DI.cs",
-              "RelativeToolTip": "Microcontroller\\DI.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABkAAAAJAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-21T12:57:15.083Z"
             },
             {
               "$type": "Document",
@@ -125,13 +95,26 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "DO.cs",
+              "DocumentMoniker": "E:\\Coding\\MicroController-Data-Context\\MCDC\\Microcontroller\\DO.cs",
+              "RelativeDocumentMoniker": "Microcontroller\\DO.cs",
+              "ToolTip": "E:\\Coding\\MicroController-Data-Context\\MCDC\\Microcontroller\\DO.cs",
+              "RelativeToolTip": "Microcontroller\\DO.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-21T12:57:22.146Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 2,
               "Title": "IO_Control.Designer.cs",
               "DocumentMoniker": "E:\\Coding\\MicroController-Data-Context\\MCDC\\IO_Control.Designer.cs",
               "RelativeDocumentMoniker": "IO_Control.Designer.cs",
               "ToolTip": "E:\\Coding\\MicroController-Data-Context\\MCDC\\IO_Control.Designer.cs",
               "RelativeToolTip": "IO_Control.Designer.cs",
-              "ViewState": "AQIAADwAAAAAAAAAAAAqwFkAAAA1AAAA",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAQwPwBAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-21T21:08:44.413Z",
               "EditorCaption": ""
@@ -162,19 +145,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 5,
               "Title": "Microcontroller.cs",
               "DocumentMoniker": "E:\\Coding\\MicroController-Data-Context\\MCDC\\Microcontroller\\Microcontroller.cs",
               "RelativeDocumentMoniker": "Microcontroller\\Microcontroller.cs",
               "ToolTip": "E:\\Coding\\MicroController-Data-Context\\MCDC\\Microcontroller\\Microcontroller.cs",
               "RelativeToolTip": "Microcontroller\\Microcontroller.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAqwBUAAAAJAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAA2AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-21T12:51:43.744Z"
+              "WhenOpened": "2024-09-21T12:51:43.744Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 9,
               "Title": "Program.cs",
               "DocumentMoniker": "E:\\Coding\\MicroController-Data-Context\\MCDC\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
@@ -182,11 +166,12 @@
               "RelativeToolTip": "Program.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABkAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-21T12:47:34.674Z"
+              "WhenOpened": "2024-09-21T12:47:34.674Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 6,
               "Title": "Hauptbild.cs [Entwurf]",
               "DocumentMoniker": "E:\\Coding\\MicroController-Data-Context\\MCDC\\Hauptbild.cs",
               "RelativeDocumentMoniker": "Hauptbild.cs",
@@ -198,7 +183,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 7,
               "Title": "Hauptbild.Designer.cs",
               "DocumentMoniker": "E:\\Coding\\MicroController-Data-Context\\MCDC\\Hauptbild.Designer.cs",
               "RelativeDocumentMoniker": "Hauptbild.Designer.cs",
@@ -229,13 +214,13 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "IO_Control.cs",
               "DocumentMoniker": "E:\\Coding\\MicroController-Data-Context\\MCDC\\IO_Control.cs",
               "RelativeDocumentMoniker": "IO_Control.cs",
               "ToolTip": "E:\\Coding\\MicroController-Data-Context\\MCDC\\IO_Control.cs",
               "RelativeToolTip": "IO_Control.cs",
-              "ViewState": "AQIAABwAAAAAAAAAAAA6wD0AAAAfAAAA",
+              "ViewState": "AQIAACgAAAAAAAAAAAAAAEgAAAAsAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-21T12:11:19.066Z",
               "EditorCaption": ""
@@ -248,12 +233,12 @@
       "Orientation": 0,
       "VerticalTabListWidth": 256,
       "FloatingWindowState": {
-        "Id": "adc2aa5e-f9f2-45a4-9ca1-09f44eae4a00",
-        "Display": 0,
-        "X": 1868,
-        "Y": 0,
-        "Width": 743,
-        "Height": 1397,
+        "Id": "6bad5865-8249-4453-a274-ef1725efab62",
+        "Display": 2,
+        "X": 272,
+        "Y": 278,
+        "Width": 1140,
+        "Height": 1119,
         "WindowState": 0
       },
       "DocumentGroups": [
@@ -263,15 +248,15 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Hauptbild.cs",
-              "DocumentMoniker": "E:\\Coding\\MicroController-Data-Context\\MCDC\\Hauptbild.cs",
-              "RelativeDocumentMoniker": "Hauptbild.cs",
-              "ToolTip": "E:\\Coding\\MicroController-Data-Context\\MCDC\\Hauptbild.cs",
-              "RelativeToolTip": "Hauptbild.cs",
-              "ViewState": "AQIAAAEAAAAAAAAAAAAswBcAAAAJAAAA",
+              "DocumentIndex": 0,
+              "Title": "IO.cs",
+              "DocumentMoniker": "E:\\Coding\\MicroController-Data-Context\\MCDC\\Microcontroller\\IO.cs",
+              "RelativeDocumentMoniker": "Microcontroller\\IO.cs",
+              "ToolTip": "E:\\Coding\\MicroController-Data-Context\\MCDC\\Microcontroller\\IO.cs",
+              "RelativeToolTip": "Microcontroller\\IO.cs",
+              "ViewState": "AQIAABwAAAAAAAAAAAAzwD4AAAAkAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-21T10:13:24.747Z",
+              "WhenOpened": "2024-09-21T12:57:15.083Z",
               "EditorCaption": ""
             }
           ]

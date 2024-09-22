@@ -15,6 +15,8 @@ namespace MCDC.Microcontroller
         public int MicrocontrollerID;
         public string MicrocontrollerName;
         public string SerialPortName;
+
+        private IO[] GPIOs;
         public Microcontroller(int microcontrollerID, string microcontrollerName)
         {  
             MicrocontrollerID = microcontrollerID;

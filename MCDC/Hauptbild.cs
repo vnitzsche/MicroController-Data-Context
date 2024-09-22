@@ -12,10 +12,12 @@ namespace MCDC
 {
     public partial class Hauptbild : Form
     {
-        public IO_Control FormIOControl = new IO_Control();
+        public static IO_Control FormIOControl = null;
         public Hauptbild()
         {
             InitializeComponent();
+            FormIOControl = new IO_Control();
+            Console.WriteLine("hauptbild init done");
         }
 
         private void ButtonHome_Click(object sender, EventArgs e)
