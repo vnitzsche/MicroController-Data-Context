@@ -7,7 +7,7 @@
       "RelativeMoniker": "D:0:0:{892709A2-8F5B-4213-A770-5F66E6B993B6}|MCDC.csproj|solutionrelative:configfileparser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{892709A2-8F5B-4213-A770-5F66E6B993B6}|MCDC.csproj|E:\\Coding\\MicroController-Data-Context\\MCDC\\microcontroller\\microcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{892709A2-8F5B-4213-A770-5F66E6B993B6}|MCDC.csproj|e:\\coding\\microcontroller-data-context\\mcdc\\microcontroller\\microcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{892709A2-8F5B-4213-A770-5F66E6B993B6}|MCDC.csproj|solutionrelative:microcontroller\\microcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -15,7 +15,7 @@
       "RelativeMoniker": "D:0:0:{892709A2-8F5B-4213-A770-5F66E6B993B6}|MCDC.csproj|solutionrelative:microcontroller\\io.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{892709A2-8F5B-4213-A770-5F66E6B993B6}|MCDC.csproj|e:\\coding\\microcontroller-data-context\\mcdc\\io_control.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{892709A2-8F5B-4213-A770-5F66E6B993B6}|MCDC.csproj|E:\\Coding\\MicroController-Data-Context\\MCDC\\io_control.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{892709A2-8F5B-4213-A770-5F66E6B993B6}|MCDC.csproj|solutionrelative:io_control.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -23,7 +23,7 @@
       "RelativeMoniker": "D:0:0:{892709A2-8F5B-4213-A770-5F66E6B993B6}|MCDC.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{892709A2-8F5B-4213-A770-5F66E6B993B6}|MCDC.csproj|e:\\coding\\microcontroller-data-context\\mcdc\\io_control.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{892709A2-8F5B-4213-A770-5F66E6B993B6}|MCDC.csproj|E:\\Coding\\MicroController-Data-Context\\MCDC\\io_control.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{892709A2-8F5B-4213-A770-5F66E6B993B6}|MCDC.csproj|solutionrelative:io_control.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
@@ -64,7 +64,7 @@
               "RelativeDocumentMoniker": "Microcontroller\\Microcontroller.cs",
               "ToolTip": "E:\\Coding\\MicroController-Data-Context\\MCDC\\Microcontroller\\Microcontroller.cs",
               "RelativeToolTip": "Microcontroller\\Microcontroller.cs",
-              "ViewState": "AQIAAAkAAAAAAAAAAAAAACAAAAAuAAAA",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAACEAAAALAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-21T12:51:43.744Z",
               "EditorCaption": ""
@@ -78,8 +78,7 @@
               "ToolTip": "E:\\Coding\\MicroController-Data-Context\\MCDC\\IO_Control.cs [Entwurf]",
               "RelativeToolTip": "IO_Control.cs [Entwurf]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-21T12:04:47.296Z",
-              "EditorCaption": " [Entwurf]"
+              "WhenOpened": "2024-09-21T12:04:47.296Z"
             },
             {
               "$type": "Bookmark",
@@ -95,8 +94,7 @@
               "RelativeToolTip": "Hauptbild.cs",
               "ViewState": "AQIAAAUAAAAAAAAAAAAqwCUAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-22T12:01:51.602Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-22T12:01:51.602Z"
             },
             {
               "$type": "Document",
@@ -108,8 +106,7 @@
               "RelativeToolTip": "IO_Control.Designer.cs",
               "ViewState": "AQIAAHgAAAAAAAAAAAAqwHoAAAAPAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-21T21:08:44.413Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-21T21:08:44.413Z"
             },
             {
               "$type": "Document",
@@ -121,8 +118,7 @@
               "RelativeToolTip": "Program.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABkAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-21T12:47:34.674Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-21T12:47:34.674Z"
             },
             {
               "$type": "Document",
@@ -133,8 +129,7 @@
               "ToolTip": "E:\\Coding\\MicroController-Data-Context\\MCDC\\Hauptbild.cs [Entwurf]",
               "RelativeToolTip": "Hauptbild.cs [Entwurf]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-21T06:42:08.197Z",
-              "EditorCaption": " [Entwurf]"
+              "WhenOpened": "2024-09-21T06:42:08.197Z"
             },
             {
               "$type": "Document",
@@ -146,8 +141,7 @@
               "RelativeToolTip": "Hauptbild.Designer.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-21T12:08:47.925Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-21T12:08:47.925Z"
             },
             {
               "$type": "Document",
@@ -158,8 +152,7 @@
               "ToolTip": "E:\\Coding\\MicroController-Data-Context\\MCDC\\Hauptbild.resx",
               "RelativeToolTip": "Hauptbild.resx",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001005|",
-              "WhenOpened": "2024-09-21T12:11:15.743Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-21T12:11:15.743Z"
             }
           ]
         },
@@ -175,7 +168,7 @@
               "RelativeDocumentMoniker": "ConfigFileParser.cs",
               "ToolTip": "E:\\Coding\\MicroController-Data-Context\\MCDC\\ConfigFileParser.cs",
               "RelativeToolTip": "ConfigFileParser.cs",
-              "ViewState": "AQIAAC4AAAAAAAAAAAAowFEAAAA7AAAA",
+              "ViewState": "AQIAADkAAAAAAAAAAAAowFwAAAARAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-23T06:44:16.613Z",
               "EditorCaption": ""
@@ -190,8 +183,7 @@
               "RelativeToolTip": "IO_Control.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAjAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-21T12:11:19.066Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-21T12:11:19.066Z"
             }
           ]
         }

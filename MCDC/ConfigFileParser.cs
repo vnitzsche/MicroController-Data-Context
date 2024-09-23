@@ -76,29 +76,18 @@ namespace MCDC
                             else
                             {
                                 MessageBox.Show("Faulty pintype. Please check .csv File", "Wrong Input", MessageBoxButtons.OK);
+                                return null;
                             }
 
                             //Choosing right microcontroller based on ID
-                            int MicrocontrollerFoundID = 0;
-                            foreach (var mc in microcontrollers)
-                            {
-                                if(mc.MicrocontrollerID == int.Parse(values[0]))
-                                {
-                                    MicrocontrollerFoundID = mc.MicrocontrollerID;
-                                    break;
-                                }
-                            } 
-                            
+                            int indexMC = microcontrollers.FindIndex(mc => mc.MicrocontrollerID == int.Parse(values[0]));
+                            if (indexMC == -1) { MessageBox.Show("MicrocontrollerID provided by GPIO could not be found!", "Wrong Input", MessageBoxButtons.OK); return null; }
 
-                            var pin = new IO(int.Parse(values[0]), values[2], int.Parse(values[1]), microcontrollers[1], pintype, Hauptbild.FormIOControl);
-                            {
-                                PinID = int.Parse(values[0]),
-                                MicrocontrollerID = int.Parse(values[1]),
-                                PinName = values[2],
-                                PinType = values[3],
-                                Scaling = values.Length > 4 ? values[4] : null
-                            };
-                            pins.Add(pin);
+
+
+                            var pin = new IO(int.Parse(values[0]), values[2], int.Parse(values[1]), int.Parse(values[0]), pintype, Hauptbild.FormIOControl);
+
+                            microcontrollers[indexMC].GPIOs.Add(pin);
                         }
                     }
                 }
