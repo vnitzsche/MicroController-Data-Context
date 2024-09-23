@@ -110,7 +110,7 @@ namespace MCDC.Microcontroller
             TablePanel.RowCount += 1;
         }
 
-        private void Update()
+        private void UpdateVisualization()
         {
             //Radiobutton / State Visualization
             if(fromControllerValue == true) { RadioButtonFromControllerValue.Checked = true; } else { RadioButtonFromControllerValue.Checked = false; }

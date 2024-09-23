@@ -42,12 +42,11 @@
             this.TabPageDI = new System.Windows.Forms.TabPage();
             this.TableLayoutPanelDI = new System.Windows.Forms.TableLayoutPanel();
             this.tabPageDO = new System.Windows.Forms.TabPage();
-            this.TableLayoutPanelDO = new System.Windows.Forms.TableLayoutPanel();
             this.TabPageAI = new System.Windows.Forms.TabPage();
-            this.TableLayoutPanelAI = new System.Windows.Forms.TableLayoutPanel();
             this.TabPageAO = new System.Windows.Forms.TabPage();
+            this.TableLayoutPanelDO = new System.Windows.Forms.TableLayoutPanel();
+            this.TableLayoutPanelAI = new System.Windows.Forms.TableLayoutPanel();
             this.TableLayoutPanelAO = new System.Windows.Forms.TableLayoutPanel();
-            this.guna2TextBox1 = new Guna.UI2.WinForms.Guna2TextBox();
             this.guna2Panel1.SuspendLayout();
             this.tableLayoutPanel1.SuspendLayout();
             this.guna2Panel2.SuspendLayout();
@@ -196,7 +195,7 @@
             this.LabelPort.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.LabelPort.Location = new System.Drawing.Point(6, 6);
             this.LabelPort.Name = "LabelPort";
-            this.LabelPort.Size = new System.Drawing.Size(47, 31);
+            this.LabelPort.Size = new System.Drawing.Size(111, 39);
             this.LabelPort.TabIndex = 3;
             this.LabelPort.Text = "Port";
             this.LabelPort.TextAlignment = System.Drawing.ContentAlignment.MiddleCenter;
@@ -208,7 +207,7 @@
             this.LabelBaudrate.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.LabelBaudrate.Location = new System.Drawing.Point(123, 6);
             this.LabelBaudrate.Name = "LabelBaudrate";
-            this.LabelBaudrate.Size = new System.Drawing.Size(100, 31);
+            this.LabelBaudrate.Size = new System.Drawing.Size(112, 39);
             this.LabelBaudrate.TabIndex = 4;
             this.LabelBaudrate.Text = "Baudrate";
             this.LabelBaudrate.TextAlignment = System.Drawing.ContentAlignment.MiddleCenter;
@@ -280,27 +279,6 @@
             this.tabPageDO.Text = "Digital Outputs";
             this.tabPageDO.UseVisualStyleBackColor = true;
             // 
-            // TableLayoutPanelDO
-            // 
-            this.TableLayoutPanelDO.AllowDrop = true;
-            this.TableLayoutPanelDO.AutoSize = true;
-            this.TableLayoutPanelDO.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
-            this.TableLayoutPanelDO.ColumnCount = 5;
-            this.TableLayoutPanelDO.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 35F));
-            this.TableLayoutPanelDO.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 70F));
-            this.TableLayoutPanelDO.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 70F));
-            this.TableLayoutPanelDO.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 50F));
-            this.TableLayoutPanelDO.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 541F));
-            this.TableLayoutPanelDO.Dock = System.Windows.Forms.DockStyle.Top;
-            this.TableLayoutPanelDO.Font = new System.Drawing.Font("Microsoft Sans Serif", 3.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.TableLayoutPanelDO.Location = new System.Drawing.Point(3, 3);
-            this.TableLayoutPanelDO.Name = "TableLayoutPanelDO";
-            this.TableLayoutPanelDO.RowCount = 1;
-            this.TableLayoutPanelDO.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 36F));
-            this.TableLayoutPanelDO.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
-            this.TableLayoutPanelDO.Size = new System.Drawing.Size(766, 36);
-            this.TableLayoutPanelDO.TabIndex = 1;
-            // 
             // TabPageAI
             // 
             this.TabPageAI.Controls.Add(this.TableLayoutPanelAI);
@@ -311,27 +289,6 @@
             this.TabPageAI.TabIndex = 2;
             this.TabPageAI.Text = "Analog Inputs";
             this.TabPageAI.UseVisualStyleBackColor = true;
-            // 
-            // TableLayoutPanelAI
-            // 
-            this.TableLayoutPanelAI.AllowDrop = true;
-            this.TableLayoutPanelAI.AutoSize = true;
-            this.TableLayoutPanelAI.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
-            this.TableLayoutPanelAI.ColumnCount = 5;
-            this.TableLayoutPanelAI.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 35F));
-            this.TableLayoutPanelAI.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 70F));
-            this.TableLayoutPanelAI.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 70F));
-            this.TableLayoutPanelAI.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 50F));
-            this.TableLayoutPanelAI.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 541F));
-            this.TableLayoutPanelAI.Dock = System.Windows.Forms.DockStyle.Top;
-            this.TableLayoutPanelAI.Font = new System.Drawing.Font("Microsoft Sans Serif", 3.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.TableLayoutPanelAI.Location = new System.Drawing.Point(3, 3);
-            this.TableLayoutPanelAI.Name = "TableLayoutPanelAI";
-            this.TableLayoutPanelAI.RowCount = 1;
-            this.TableLayoutPanelAI.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 36F));
-            this.TableLayoutPanelAI.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
-            this.TableLayoutPanelAI.Size = new System.Drawing.Size(766, 36);
-            this.TableLayoutPanelAI.TabIndex = 2;
             // 
             // TabPageAO
             // 
@@ -344,12 +301,55 @@
             this.TabPageAO.Text = "Analog Outputs";
             this.TabPageAO.UseVisualStyleBackColor = true;
             // 
+            // TableLayoutPanelDO
+            // 
+            this.TableLayoutPanelDO.AllowDrop = true;
+            this.TableLayoutPanelDO.AutoSize = true;
+            this.TableLayoutPanelDO.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
+            this.TableLayoutPanelDO.ColumnCount = 6;
+            this.TableLayoutPanelDO.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 35F));
+            this.TableLayoutPanelDO.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 35F));
+            this.TableLayoutPanelDO.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 70F));
+            this.TableLayoutPanelDO.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 70F));
+            this.TableLayoutPanelDO.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 50F));
+            this.TableLayoutPanelDO.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 541F));
+            this.TableLayoutPanelDO.Dock = System.Windows.Forms.DockStyle.Top;
+            this.TableLayoutPanelDO.Font = new System.Drawing.Font("Microsoft Sans Serif", 3.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.TableLayoutPanelDO.Location = new System.Drawing.Point(3, 3);
+            this.TableLayoutPanelDO.Name = "TableLayoutPanelDO";
+            this.TableLayoutPanelDO.RowCount = 1;
+            this.TableLayoutPanelDO.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 36F));
+            this.TableLayoutPanelDO.Size = new System.Drawing.Size(766, 36);
+            this.TableLayoutPanelDO.TabIndex = 2;
+            // 
+            // TableLayoutPanelAI
+            // 
+            this.TableLayoutPanelAI.AllowDrop = true;
+            this.TableLayoutPanelAI.AutoSize = true;
+            this.TableLayoutPanelAI.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
+            this.TableLayoutPanelAI.ColumnCount = 6;
+            this.TableLayoutPanelAI.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 35F));
+            this.TableLayoutPanelAI.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 35F));
+            this.TableLayoutPanelAI.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 70F));
+            this.TableLayoutPanelAI.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 70F));
+            this.TableLayoutPanelAI.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 50F));
+            this.TableLayoutPanelAI.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 541F));
+            this.TableLayoutPanelAI.Dock = System.Windows.Forms.DockStyle.Top;
+            this.TableLayoutPanelAI.Font = new System.Drawing.Font("Microsoft Sans Serif", 3.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.TableLayoutPanelAI.Location = new System.Drawing.Point(3, 3);
+            this.TableLayoutPanelAI.Name = "TableLayoutPanelAI";
+            this.TableLayoutPanelAI.RowCount = 1;
+            this.TableLayoutPanelAI.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 36F));
+            this.TableLayoutPanelAI.Size = new System.Drawing.Size(766, 36);
+            this.TableLayoutPanelAI.TabIndex = 1;
+            // 
             // TableLayoutPanelAO
             // 
             this.TableLayoutPanelAO.AllowDrop = true;
             this.TableLayoutPanelAO.AutoSize = true;
             this.TableLayoutPanelAO.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
-            this.TableLayoutPanelAO.ColumnCount = 5;
+            this.TableLayoutPanelAO.ColumnCount = 6;
+            this.TableLayoutPanelAO.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 35F));
             this.TableLayoutPanelAO.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 35F));
             this.TableLayoutPanelAO.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 70F));
             this.TableLayoutPanelAO.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 70F));
@@ -361,38 +361,14 @@
             this.TableLayoutPanelAO.Name = "TableLayoutPanelAO";
             this.TableLayoutPanelAO.RowCount = 1;
             this.TableLayoutPanelAO.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 36F));
-            this.TableLayoutPanelAO.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
             this.TableLayoutPanelAO.Size = new System.Drawing.Size(766, 36);
-            this.TableLayoutPanelAO.TabIndex = 2;
-            // 
-            // guna2TextBox1
-            // 
-            this.guna2TextBox1.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.guna2TextBox1.DefaultText = "";
-            this.guna2TextBox1.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
-            this.guna2TextBox1.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
-            this.guna2TextBox1.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.guna2TextBox1.DisabledState.Parent = this.guna2TextBox1;
-            this.guna2TextBox1.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.guna2TextBox1.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.guna2TextBox1.FocusedState.Parent = this.guna2TextBox1;
-            this.guna2TextBox1.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.guna2TextBox1.HoverState.Parent = this.guna2TextBox1;
-            this.guna2TextBox1.Location = new System.Drawing.Point(1119, 261);
-            this.guna2TextBox1.Name = "guna2TextBox1";
-            this.guna2TextBox1.PasswordChar = '\0';
-            this.guna2TextBox1.PlaceholderText = "";
-            this.guna2TextBox1.SelectedText = "";
-            this.guna2TextBox1.ShadowDecoration.Parent = this.guna2TextBox1;
-            this.guna2TextBox1.Size = new System.Drawing.Size(200, 36);
-            this.guna2TextBox1.TabIndex = 9;
+            this.TableLayoutPanelAO.TabIndex = 1;
             // 
             // IO_Control
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1366, 874);
-            this.Controls.Add(this.guna2TextBox1);
             this.Controls.Add(this.guna2Panel2);
             this.Controls.Add(this.TabControlIO);
             this.Controls.Add(this.guna2Panel1);
@@ -438,6 +414,5 @@
         public System.Windows.Forms.TableLayoutPanel TableLayoutPanelDO;
         public System.Windows.Forms.TableLayoutPanel TableLayoutPanelAI;
         public System.Windows.Forms.TableLayoutPanel TableLayoutPanelAO;
-        private Guna.UI2.WinForms.Guna2TextBox guna2TextBox1;
     }
 }

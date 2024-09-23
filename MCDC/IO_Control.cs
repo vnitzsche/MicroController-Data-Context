@@ -19,7 +19,6 @@ namespace MCDC
         public IO_Control()
         {
             InitializeComponent(); 
-            Console.WriteLine("Di init done");
         }
 
         private void IO_Control_FormClosing(object sender, FormClosingEventArgs e)

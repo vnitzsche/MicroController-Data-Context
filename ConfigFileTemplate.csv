@@ -1,0 +1,8 @@
+MicrocontrollerID;MicrocontrollerName;SendInterval;ConnectionType;
+1;ESP32;200;USB;
+-;;;;
+PinID;MicrocontrollerID;PinName;PinType;Scaling
+1;1;DigitalInput_Test;DI;
+2;1;DigitalInput_Test2;DI;
+3;1;DigitalInput_Test1;DI;
+4;1;DigitalInput_Test3;DI;
