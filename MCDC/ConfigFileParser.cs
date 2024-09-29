@@ -24,73 +24,78 @@ namespace MCDC
 
             bool parsingMicrocontrollers = true; // We start by parsing microcontroller section
 
-            using (var reader = new StreamReader(filepath))
+            try
             {
-                // Skip the headers
-                string line = reader.ReadLine();
-
-                while ((line = reader.ReadLine()) != null)
+                using (var reader = new StreamReader(filepath))
                 {
-                    // Check for separator line
-                    if (line.StartsWith("-;;;"))
-                    {
-                        parsingMicrocontrollers = false; // Switch to parsing pins section
-                        reader.ReadLine(); // Skip the Pin section headers
-                        continue;
-                    }
+                    // Skip the headers
+                    string line = reader.ReadLine();
 
-                    // Parse microcontroller data
-                    if (parsingMicrocontrollers)
+                    while ((line = reader.ReadLine()) != null)
                     {
-                        var values = line.Split(';');
-                        if (values.Length >= 4 && !string.IsNullOrEmpty(values[0])) // Ignore empty lines
+                        // Check for separator line
+                        if (line.StartsWith("-;;;"))
                         {
-                            
-                            EnumConnectionType connectionType;
-                            if (values[3] == "WiFi")
-                            {
-                                connectionType = EnumConnectionType.WiFi;
-                            }
-                            else
-                            {
-                                connectionType = EnumConnectionType.USB;
-                            }
-
-                            var microcontroller = new Microcontroller.Microcontroller(int.Parse(values[0]), values[1], int.Parse(values[2]), connectionType);
-
-                            microcontrollers.Add(microcontroller);
+                            parsingMicrocontrollers = false; // Switch to parsing pins section
+                            reader.ReadLine(); // Skip the Pin section headers
+                            continue;
                         }
-                    }
-                    // Parse pin data
-                    else
-                    {
-                        var values = line.Split(';');
-                        if (values.Length >= 4 && !string.IsNullOrEmpty(values[0])) // Ignore empty lines
+
+                        // Parse microcontroller data
+                        if (parsingMicrocontrollers)
                         {
-                            //PinType
-                            PinType pintype;
-                            if (values[3] == "DI") { pintype = PinType.DigitalInput; }
-                            else if (values[3] == "DO") { pintype = PinType.DigitalOutput; }
-                            else if (values[3] == "AI") { pintype = PinType.AnalogInput; }
-                            else if (values[3] == "AO") { pintype = PinType.AnalogOutput; }
-                            else
+                            var values = line.Split(';');
+                            if (values.Length >= 4 && !string.IsNullOrEmpty(values[0])) // Ignore empty lines
                             {
-                                MessageBox.Show("Faulty pintype. Please check .csv File", "Wrong Input", MessageBoxButtons.OK);
-                                return null;
+
+                                EnumConnectionType connectionType;
+                                if (values[3] == "WiFi")
+                                {
+                                    connectionType = EnumConnectionType.WiFi;
+                                }
+                                else
+                                {
+                                    connectionType = EnumConnectionType.USB;
+                                }
+
+                                var microcontroller = new Microcontroller.Microcontroller(int.Parse(values[0]), values[1], int.Parse(values[2]), connectionType);
+
+                                microcontrollers.Add(microcontroller);
                             }
+                        }
+                        // Parse pin data
+                        else
+                        {
+                            var values = line.Split(';');
+                            if (values.Length >= 4 && !string.IsNullOrEmpty(values[0])) // Ignore empty lines
+                            {
+                                //PinType
+                                PinType pintype;
+                                if (values[3] == "DI") { pintype = PinType.DigitalInput; }
+                                else if (values[3] == "DO") { pintype = PinType.DigitalOutput; }
+                                else if (values[3] == "AI") { pintype = PinType.AnalogInput; }
+                                else if (values[3] == "AO") { pintype = PinType.AnalogOutput; }
+                                else
+                                {
+                                    MessageBox.Show("Faulty pintype. Please check .csv File", "Wrong Input", MessageBoxButtons.OK);
+                                    return null;
+                                }
 
-                            //Choosing right microcontroller based on ID
-                            int indexMC = microcontrollers.FindIndex(mc => mc.MicrocontrollerID == int.Parse(values[0]));
-                            if (indexMC == -1) { MessageBox.Show("MicrocontrollerID provided by GPIO could not be found!", "Wrong Input", MessageBoxButtons.OK); return null; }
+                                //Choosing right microcontroller based on ID
+                                int indexMC = microcontrollers.FindIndex(mc => mc.MicrocontrollerID == int.Parse(values[0]));
+                                if (indexMC == -1) { MessageBox.Show("MicrocontrollerID provided by GPIO could not be found!", "Wrong Input", MessageBoxButtons.OK); return null; }
 
+                                var pin = new IO(int.Parse(values[0]), values[2], int.Parse(values[1]), int.Parse(values[0]), pintype, Hauptbild.FormIOControl);
 
-
-                            var pin = new IO(int.Parse(values[0]), values[2], int.Parse(values[1]), int.Parse(values[0]), pintype, Hauptbild.FormIOControl);
-
-                            microcontrollers[indexMC].GPIOs.Add(pin);
+                                microcontrollers[indexMC].GPIOs.Add(pin);
+                            }
                         }
                     }
                 }
+            }
+            catch
+            {
+                MessageBox.Show("Problems opening the file. Maybe it is still open?");
             }
 
             return microcontrollers;

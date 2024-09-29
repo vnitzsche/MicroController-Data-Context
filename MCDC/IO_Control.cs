@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
 using System.Drawing;
+using System.IO;
 using System.IO.Ports;
 using System.Linq;
 using System.Security.Cryptography.X509Certificates;
@@ -66,6 +67,15 @@ namespace MCDC
             sp.Close();
 
             IO test = new IO(1, "Name", 1, 1, PinType.DigitalInput, Hauptbild.FormIOControl);
+        }
+
+        private void ButtonReadConfiguration_Click(object sender, EventArgs e)
+        {
+            OpenFileConfig.ShowDialog();
+            
+            ConfigFileParser configFileParser = new ConfigFileParser();
+
+            configFileParser.ParseFile(OpenFileConfig.FileName);
         }
     }
 }

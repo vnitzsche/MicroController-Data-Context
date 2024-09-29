@@ -42,11 +42,12 @@
             this.TabPageDI = new System.Windows.Forms.TabPage();
             this.TableLayoutPanelDI = new System.Windows.Forms.TableLayoutPanel();
             this.tabPageDO = new System.Windows.Forms.TabPage();
-            this.TabPageAI = new System.Windows.Forms.TabPage();
-            this.TabPageAO = new System.Windows.Forms.TabPage();
             this.TableLayoutPanelDO = new System.Windows.Forms.TableLayoutPanel();
+            this.TabPageAI = new System.Windows.Forms.TabPage();
             this.TableLayoutPanelAI = new System.Windows.Forms.TableLayoutPanel();
+            this.TabPageAO = new System.Windows.Forms.TabPage();
             this.TableLayoutPanelAO = new System.Windows.Forms.TableLayoutPanel();
+            this.OpenFileConfig = new System.Windows.Forms.OpenFileDialog();
             this.guna2Panel1.SuspendLayout();
             this.tableLayoutPanel1.SuspendLayout();
             this.guna2Panel2.SuspendLayout();
@@ -83,6 +84,7 @@
             this.ButtonReadConfiguration.Size = new System.Drawing.Size(180, 100);
             this.ButtonReadConfiguration.TabIndex = 1;
             this.ButtonReadConfiguration.Text = "Read Configuration";
+            this.ButtonReadConfiguration.Click += new System.EventHandler(this.ButtonReadConfiguration_Click);
             // 
             // ButtonScanController
             // 
@@ -279,28 +281,6 @@
             this.tabPageDO.Text = "Digital Outputs";
             this.tabPageDO.UseVisualStyleBackColor = true;
             // 
-            // TabPageAI
-            // 
-            this.TabPageAI.Controls.Add(this.TableLayoutPanelAI);
-            this.TabPageAI.Location = new System.Drawing.Point(4, 33);
-            this.TabPageAI.Name = "TabPageAI";
-            this.TabPageAI.Padding = new System.Windows.Forms.Padding(3);
-            this.TabPageAI.Size = new System.Drawing.Size(772, 737);
-            this.TabPageAI.TabIndex = 2;
-            this.TabPageAI.Text = "Analog Inputs";
-            this.TabPageAI.UseVisualStyleBackColor = true;
-            // 
-            // TabPageAO
-            // 
-            this.TabPageAO.Controls.Add(this.TableLayoutPanelAO);
-            this.TabPageAO.Location = new System.Drawing.Point(4, 33);
-            this.TabPageAO.Name = "TabPageAO";
-            this.TabPageAO.Padding = new System.Windows.Forms.Padding(3);
-            this.TabPageAO.Size = new System.Drawing.Size(772, 737);
-            this.TabPageAO.TabIndex = 3;
-            this.TabPageAO.Text = "Analog Outputs";
-            this.TabPageAO.UseVisualStyleBackColor = true;
-            // 
             // TableLayoutPanelDO
             // 
             this.TableLayoutPanelDO.AllowDrop = true;
@@ -321,6 +301,17 @@
             this.TableLayoutPanelDO.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 36F));
             this.TableLayoutPanelDO.Size = new System.Drawing.Size(766, 36);
             this.TableLayoutPanelDO.TabIndex = 2;
+            // 
+            // TabPageAI
+            // 
+            this.TabPageAI.Controls.Add(this.TableLayoutPanelAI);
+            this.TabPageAI.Location = new System.Drawing.Point(4, 33);
+            this.TabPageAI.Name = "TabPageAI";
+            this.TabPageAI.Padding = new System.Windows.Forms.Padding(3);
+            this.TabPageAI.Size = new System.Drawing.Size(772, 737);
+            this.TabPageAI.TabIndex = 2;
+            this.TabPageAI.Text = "Analog Inputs";
+            this.TabPageAI.UseVisualStyleBackColor = true;
             // 
             // TableLayoutPanelAI
             // 
@@ -343,6 +334,17 @@
             this.TableLayoutPanelAI.Size = new System.Drawing.Size(766, 36);
             this.TableLayoutPanelAI.TabIndex = 1;
             // 
+            // TabPageAO
+            // 
+            this.TabPageAO.Controls.Add(this.TableLayoutPanelAO);
+            this.TabPageAO.Location = new System.Drawing.Point(4, 33);
+            this.TabPageAO.Name = "TabPageAO";
+            this.TabPageAO.Padding = new System.Windows.Forms.Padding(3);
+            this.TabPageAO.Size = new System.Drawing.Size(772, 737);
+            this.TabPageAO.TabIndex = 3;
+            this.TabPageAO.Text = "Analog Outputs";
+            this.TabPageAO.UseVisualStyleBackColor = true;
+            // 
             // TableLayoutPanelAO
             // 
             this.TableLayoutPanelAO.AllowDrop = true;
@@ -363,6 +365,10 @@
             this.TableLayoutPanelAO.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 36F));
             this.TableLayoutPanelAO.Size = new System.Drawing.Size(766, 36);
             this.TableLayoutPanelAO.TabIndex = 1;
+            // 
+            // OpenFileConfig
+            // 
+            this.OpenFileConfig.FileName = " OpenFileConfig";
             // 
             // IO_Control
             // 
@@ -414,5 +420,6 @@
         public System.Windows.Forms.TableLayoutPanel TableLayoutPanelDO;
         public System.Windows.Forms.TableLayoutPanel TableLayoutPanelAI;
         public System.Windows.Forms.TableLayoutPanel TableLayoutPanelAO;
+        private System.Windows.Forms.OpenFileDialog OpenFileConfig;
     }
 }
