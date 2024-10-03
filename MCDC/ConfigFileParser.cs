@@ -82,10 +82,11 @@ namespace MCDC
                                 }
 
                                 //Choosing right microcontroller based on ID
-                                int indexMC = microcontrollers.FindIndex(mc => mc.MicrocontrollerID == int.Parse(values[0]));
+                                Console.WriteLine(values[1]);
+                                int indexMC = microcontrollers.FindIndex(mc => mc.MicrocontrollerID == int.Parse(values[1]));
                                 if (indexMC == -1) { MessageBox.Show("MicrocontrollerID provided by GPIO could not be found!", "Wrong Input", MessageBoxButtons.OK); return null; }
 
-                                var pin = new IO(int.Parse(values[0]), values[2], int.Parse(values[1]), int.Parse(values[0]), pintype, Hauptbild.FormIOControl);
+                                var pin = new IO(int.Parse(values[0]), values[2], int.Parse(values[1]), microcontrollers[indexMC].GPIOs.Count + 1, pintype, Hauptbild.FormIOControl);
 
                                 microcontrollers[indexMC].GPIOs.Add(pin);
                             }
